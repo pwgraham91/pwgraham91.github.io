@@ -1,0 +1,30 @@
+h1 {
+	text-align: center;
+	padding-bottom: 25px;
+}
+.navbar {
+	z-index: 1;
+	margin-bottom: -1px;
+}
+.description {
+	text-align: center;
+	font-weight: bold;
+}
+.pic {
+	height: 250px;
+	width: 300px;
+
+}
+.how {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 3%;
+}
+.first_row {
+
+}
+.thumbnail {
+	border: none;
+	box-shadow: none;
+	clear: left;
+}

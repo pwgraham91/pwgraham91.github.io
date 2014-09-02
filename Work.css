@@ -1,0 +1,14 @@
+h1 {
+	text-align: center;
+	padding-bottom: 25px;
+}
+.date_job {
+	font-weight: bold;
+}
+.navbar {
+	z-index: 1;
+	margin-bottom: -1px;
+}
+.jobs {
+	padding-bottom: 25px;
+}
