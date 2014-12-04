@@ -12,5 +12,9 @@
 .navbar {
 	z-index: 1;
 	margin-bottom: -1px;
-    background-color: #f24c09;
+}
+
+.navbar-default {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
 }
