@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+}
+
+.jumbotron {
+	background-image: url('http://4.bp.blogspot.com/-vXnf7GjcXmg/UfJZE9rWc2I/AAAAAAAAGRc/x2CIlHM9IAA/s1600/aphoto49721.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  	height: 100%;
+    background-attachment: fixed;
+    margin-top: -50px;
+    color: rgba(0, 0, 0, 0.52);
+    margin-bottom: -100px;
+    padding-bottom: -100px;
+}
+.darkBG {
+	background: #999;
+}
+.img-responsive.grad {
+	margin-bottom: 10px;
+}
+.navbar {
+	z-index: 1;
+	margin-bottom: -1px;
+}
+
+.navbar-default {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
+.navbar-fixed-top {
+    color:#ffffff;
+    border-radius:0;
+}
+
+a {
+    background-color: transparent;
+    color: #ffffff;
+    margin-left: 18px;
+}
+
+.jumbo-title {
+    font-weight: 200;
+    float: right;
+    margin-top: 40px;
+}
+
+#aboutMe {
+    color: #ffffff;
+    margin-top: 140px;
+    text-shadow: 0 0 10px #000, 0 0 10px #000, 0 0 10px #000, 0 0 10px #000;
+}
