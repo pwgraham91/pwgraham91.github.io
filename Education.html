@@ -1,70 +1,42 @@
 <!DOCTYPE html>
 <html>
-
-  <head>
-    <title>Bootstrap Portfolio</title>
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-	
-    <link rel="stylesheet" href="css/Education.css">
-      	<script src= "http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-      	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-  	<!-- HOW TO MAKE THE NAVBAR STICKY -->
-  	<header class= "navbar" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
-
-		  <nav class="navbar navbar-inverse" role="navigation">
-		  <div class="container-fluid">
-		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      <a class="navbar-brand" href="index.html">Peter Graham</a>
-		    </div>
-
-		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		      <ul class="nav navbar-nav">
-		        <li><a href="index.html">Home</a></li>
-		        <li class="dropdown">
-		          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu<span class="caret"></span></a>
-		          <ul class="dropdown-menu">
-		            <li><a href="index.html">Home</a></li>
-		            <li><a href="Education.html">Education</a></li>
-		            <li><a href="Work.html">Work Experience</a></li>
-		            <li class="divider"></li>
-		            <li><a href="Python.html">Python Projects</a></li>
-		            <li class="divider"></li>
-		            <li><a href="Contact.html">Contact</a></li>
-		          </ul>
-		        </li>
-		      </ul>
-		      <ul class="nav navbar-nav navbar-right">
-        		<li><a href="#"><script type="text/javascript">
-				var d=new Date()
-				var weekday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
-				var monthname=new Array("January","February","March","April","May","June","July","August","September","October","November","December")
-				document.write(weekday[d.getDay()] + " ")
-				document.write(monthname[d.getMonth()] + " ")
-				document.write(d.getDate() + ", ")
-				document.write(d.getFullYear())
-			</script></a></li></ul>
-		    </div><!-- /.navbar-collapse -->
-		  </div><!-- /.container-fluid -->
-		</nav>
-  	</header>
+    <head>
+        <title>Peter Graham | Education</title>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/Education.css">
+        <script src= "http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <header class= "navbar" data-offset-top="60" data-offset-bottom="200">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">Peter Graham</a>
+                    </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="Education.html">Education</a></li>
+                        <li><a href="Work.html">Work Experience</a></li>
+                        <li><a href="Projects.html">Python Projects</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        </header>
   	<h1>Education</h1>
 	  	<div class="container">
 		  	<div class="row edu">
 		  		<div class="col-md-6 col-sm-6 col-xs-6">
-		  				<img class= "img-responsive grad" alt= "Responsive image" src = "http://its.ucdavis.edu/wp-content/themes/its/images/ucdavis-logo.png">
+		  				<img class= "img-responsive grad" alt= "Responsive image" src = "img/ucdavis-logo.png">
 		  		</div>
 		  		<div class="col-md-6 col-sm-6 col-xs-6">
 		  			<p> I studied Psychology and Anthropology at UC Davis from 2009-2013. There, I developed critical thinking and analytical skills. In addition to these soft skills, I also took classes in Calculus and Statistics including statistical programming in SAS.
@@ -73,20 +45,17 @@
 		  	</div>
 		  	<div class="row edu">
 		  		<div class="col-md-6 col-sm-6 col-xs-6">
-		  			<img class= "img-responsive grad" alt= "Responsive image" src = "https://rocketspacecom-wpengine.netdna-ssl.com/wp-content/uploads/2013/05/RocketU-logo-final-color-1160x372.png">
+		  			<img class= "img-responsive" alt= "Responsive image" src = "img/RocketU-logo-final-color-1160x372.png">
 		  		</div>
-		  		<br>
 		  		<div class="col-md-6 col-sm-6 col-xs-6">
-		  			<p>RocketU is a 12-week intensive bootcamp in Full Stack Web Development. The class is held at RocketU where lecture and exercises last from 9-6 daily and homework for nights and weekends.
+		  			<p>
+                        RocketU is a 12-week intensive bootcamp in Full Stack Web Development. The class is held at Rocket Space where lecture and exercises last from 9-6 daily and homework for nights and weekends.
+                    </p>
+                    <p>
+                        The course is focused on rapid development in Django covering topics in Ajax, Javascript, Databases, Angular, Django REST Framework, Testing as well as other technologies.
 					</p>
-					<ul>
-						<li>Python, Django, Postgresql</li>	
-						<li>JQuery, Javascript, Angular.js, Reveal.js</li>
-					</ul>
 		  		</div>
 		  	</div>
 	  	</div>
   	</div>
-
-
   </body>
